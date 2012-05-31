@@ -1,0 +1,8 @@
+/* 
+  InfoPlist.strings
+  fashot
+
+  Created by Ueoka Kazuya on 11/08/13.
+  Copyright 2011年 __MyCompanyName__. All rights reserved.
+*/
+CFBundleDisplayName = "WebCollector";

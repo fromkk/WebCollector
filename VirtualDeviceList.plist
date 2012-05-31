@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>N505i</string>
+		<key>carrier</key>
+		<string>docomo</string>
+		<key>ua</key>
+		<string>DoCoMo/1.0/N505i</string>
+		<key>width</key>
+		<integer>240</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>W53CA</string>
+		<key>carrier</key>
+		<string>au</string>
+		<key>ua</key>
+		<string>KDDI-CA39 UP.Browser/6.2.0.13.1.5 (GUI) MMP/2.0</string>
+		<key>width</key>
+		<integer>232</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>840P</string>
+		<key>carrier</key>
+		<string>SoftBank</string>
+		<key>ua</key>
+		<string>SoftBank/1.0/840P/PJP10[/Serial] Browser/NetFront/3.4 Profile/MIDP-2.0 Configuration/CLDC-1.1</string>
+		<key>width</key>
+		<integer>236</integer>
+	</dict>
+</array>
+</plist>

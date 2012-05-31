@@ -1,0 +1,52 @@
+/* 
+  Localizable.strings
+  fashot
+
+  Created by Ueoka Kazuya on 11/08/13.
+  Copyright 2011年 __MyCompanyName__. All rights reserved.
+*/
+"error" = "Error";
+"urlincorrect" = "URL Incorrect.";
+"close" = "Close";
+"CompleteSaveCapture" = "Capture save complete!";
+"save" = "Save";
+"share" = "Share";
+"SaveAlbum" = "Save Album";
+"SendEmail" = "Send email";
+"confirm" = "Confirm";
+"yes" = "Yes";
+"no" = "No";
+"AnotherMenu" = "Another Menu";
+"CheckLink" = "Check Links";
+"CheckResult" = "Check result";
+"ErrorNothing" = "Error is nothing";
+"ErrorExist" = "Error is exists";
+"ReadHistory" = "History";
+"reset" = "Reset";
+"result" = "Result";
+"ResetComplete" = "Reset complete";
+"ReallyReset" = "Do you want to really reset?";
+"FailNetwork" = "Failed connection network.";
+"OpenSafari" = "Open in Safari";
+"NeedAuth" = "Basic Authentication";
+"ShareFacebook" = "Share on Facebook";
+"ShowSource" = "Show content source";
+"favorites" = "Favorites";
+"source" = "Source";
+"ShowDevices" = "Show devices";
+"defaults" = "Default";
+"SaveEvernote" = "Save Evernote";
+"ShareTwitter" = "Share on Twitter";
+"preview" = "Preview";
+"LogoutFacebook" = "Logout Facebook";
+"LogoutEvernote" = "Logout Evernote";
+"complete" = "Complete";
+"CompLogoutFacebook" = "Facebook logout complete.";
+"CompLogoutEvernote" = "Evernote logout complete.";
+"EvernoteSaveError" = "Evernote save error.";
+"SaveEvernoteComplete" = "Evernote save complete!";
+"back" = "Back";
+"PurchaseHideAd" = "Purchase ad hide feature(1$)";
+"notAllowInAppPurchase" = "You not allowed in app purchase.";
+"failedInAppPurchase" = "Failed purchase.";
+"PurchaseComplete" = "Purchase complete!";
