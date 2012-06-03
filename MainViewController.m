@@ -597,15 +597,15 @@
     
     // EXAMPLE: do something useful with the barcode data
     
-    _qr_data = symbol.data;
+    _qr_data = [symbol.data copy];
+    
+    // ADD: dismiss the controller (NB dismiss from the *reader*!)
+    [reader dismissModalViewControllerAnimated: YES];
     
     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"confirm", nil) message:[NSString stringWithFormat:@"Access to %@ ?", _qr_data] delegate:self cancelButtonTitle:NSLocalizedString(@"no", nil) otherButtonTitles:NSLocalizedString(@"yes", nil), nil];
     alert.tag = 9;
     [alert show];
     [alert release];
-
-    // ADD: dismiss the controller (NB dismiss from the *reader*!)
-    [reader dismissModalViewControllerAnimated: YES];
 }
                           
 -(void)alertView:(UIAlertView*)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
@@ -615,6 +615,7 @@
             case 0:
                 break;
             case 1:
+                NSLog(@"%@", _qr_data);
                 [url setText:_qr_data];
                 [self doAccess];
                 break;
